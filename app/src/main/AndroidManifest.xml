@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cataract">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_eye"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_eye_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cataract">
+        <activity android:name=".CB21"></activity>
+        <activity android:name=".CB20" />
+        <activity android:name=".CB19" />
+        <activity android:name=".CB18" />
+        <activity android:name=".CB17" />
+        <activity android:name=".CB16" />
+        <activity android:name=".CB15" />
+        <activity android:name=".CB14" />
+        <activity android:name=".CB13" />
+        <activity android:name=".CB12" />
+        <activity android:name=".CB11" />
+        <activity android:name=".CB10" />
+        <activity android:name=".CB9" />
+        <activity android:name=".CB8" />
+        <activity android:name=".CB7" />
+        <activity android:name=".CB6" />
+        <activity android:name=".CB5" />
+        <activity android:name=".CB4" />
+        <activity android:name=".CB3" />
+        <activity android:name=".CB2" />
+        <activity android:name=".ColourBlindness" />
+        <activity android:name=".CaptureImage" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

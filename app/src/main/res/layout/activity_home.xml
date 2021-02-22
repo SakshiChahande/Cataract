@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/off_white"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="serif-monospace"
+        android:text="WELCOME"
+        android:textColor="@color/deep_blue"
+        android:textSize="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/CaptureImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="15sp"
+            android:text="Capture Image"
+            app:cornerRadius="20dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:id="@+id/DetectCataract"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:text="Detect Cataract"
+            android:textSize="15sp"
+            app:cornerRadius="20dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/Astigmatism"
+            android:textSize="15sp"
+            android:layout_row="1"
+            android:layout_marginTop="8dp"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:text="Astigmatism"
+            app:cornerRadius="20dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:id="@+id/ColourBlindness"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:text="Colour Blindness"
+            android:textSize="15sp"
+            app:cornerRadius="20dp">
+
+        </com.google.android.material.button.MaterialButton>
+    </GridLayout>
+</RelativeLayout>
+
